@@ -98,3 +98,30 @@ console.log(ourStr)
  \b    backspace
  \f    form feed
  */
+
+var everyStr = "First Line\n\t\\Second Line\n\t\t\\Third Line"
+console.log(everyStr)
+
+//string concatenation -> +, +=
+var concatn = firstName + " " + lastName
+console.log(concatn)
+
+//COnstructing string w variables && appending variables to string
+var adjective = "awesome!"
+var theStr = "freecodecamp is "
+theStr += adjective
+console.log(theStr)
+
+//length of string -> varname.length
+var lengthOfFirstName = firstName.length //Sapphire
+console.log(lengthOfFirstName)
+
+//bracket notation to find first character in string
+var firstLetterOfLastName = lastName //Woes
+firstLetterOfLastName = lastName[0] //array
+console.log(firstLetterOfLastName)
+
+//String immutability -> cant be altered after creation. individual charscters of string literal cant be changed. but can be changed
+var oofStr = "Jello World"
+oofStr = "Hello World" //have to type he string again to overwrite
+console.log(oofStr)
