@@ -125,3 +125,11 @@ console.log(firstLetterOfLastName)
 var oofStr = "Jello World"
 oofStr = "Hello World" //have to type he string again to overwrite
 console.log(oofStr)
+
+//last letter of string
+var lastOfFirstName = firstName[firstName.length - 1]
+console.log(lastOfFirstName)
+
+//to find Nth to last of a string
+var thirdToLastLName = lastName[lastName.length - 3]
+console.log(thirdToLastLName)
